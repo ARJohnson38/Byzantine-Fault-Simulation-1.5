@@ -1,0 +1,5 @@
+{"timestamp": 1789325601.9985895, "node": "N1", "run_id": "B-BASELINE-01", "event": "RUN_START", "scenario": "B", "mode": "A", "command": "ATTACK"}
+{"timestamp": 1789325602.0407515, "node": "N1", "run_id": "B-BASELINE-01", "event": "SEND", "destination": "N2", "round": 1, "value": "ATTACK", "success": true}
+{"timestamp": 1789325602.0670457, "node": "N1", "run_id": "B-BASELINE-01", "event": "SEND", "destination": "N3", "round": 1, "value": "ATTACK", "success": true}
+{"timestamp": 1789325602.0918112, "node": "N1", "run_id": "B-BASELINE-01", "event": "SEND", "destination": "N4", "round": 1, "value": "ATTACK", "success": true}
+{"timestamp": 1789325612.0005379, "node": "N1", "run_id": "B-BASELINE-01", "event": "DECISION", "decision": "ATTACK", "direct": {}, "relays": {}, "mode": "A"}

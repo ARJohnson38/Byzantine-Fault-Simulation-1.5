@@ -1,0 +1,11 @@
+{"timestamp": 1789331260.0867229, "node": "N3", "run_id": "C-02-R2", "event": "RECEIVE", "sender": "N1", "round": 1, "value": "RETREAT"}
+{"timestamp": 1789331261.865735, "node": "N3", "run_id": "C-02-R2", "event": "RECEIVE", "sender": "N1", "round": 1, "value": "RETREAT"}
+{"timestamp": 1789331261.995167, "node": "N3", "run_id": "C-02-R2", "event": "RUN_START", "scenario": "C", "mode": "B", "command": "RETREAT"}
+{"timestamp": 1789331262.0001423, "node": "N3", "run_id": "C-02-R2", "event": "RUN_START", "scenario": "C", "mode": "B", "command": "RETREAT"}
+{"timestamp": 1789331265.0878248, "node": "N3", "run_id": "C-02-R2", "event": "RECEIVE", "sender": "N2", "round": 2, "value": "RETREAT"}
+{"timestamp": 1789331267.1609468, "node": "N3", "run_id": "C-02-R2", "event": "SEND", "destination": "N2", "round": 2, "value": "RETREAT", "success": true}
+{"timestamp": 1789331267.1783092, "node": "N3", "run_id": "C-02-R2", "event": "RECEIVE", "sender": "N4", "round": 2, "value": "RETREAT"}
+{"timestamp": 1789331267.20092, "node": "N3", "run_id": "C-02-R2", "event": "SEND", "destination": "N4", "round": 2, "value": "RETREAT", "success": true}
+}
+{"timestamp": 1789331271.9979746, "node": "N3", "run_id": "C-02-R2", "event": "DECISION", "decision": "RETREAT", "direct": {"N1": "RETREAT"}, "relays": {}, "mode": "B"}
+"}, "mode": "B"}

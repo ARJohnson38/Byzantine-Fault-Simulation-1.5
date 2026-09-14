@@ -1,0 +1,26 @@
+Scenario,Run_ID,Command,Fault,Final_Status
+A,A-01,ATTACK,All honest,PASS
+A,A-02,RETREAT,All honest,PASS
+A,A-03-R2,ATTACK,All honest,PASS
+A,A-04,RETREAT,All honest,PASS
+A,A-05,ATTACK,All honest,PASS
+B,B-01,ATTACK,N1 Byzantine leader,COMPLETE
+B,B-02,RETREAT,N1 Byzantine leader,COMPLETE
+B,B-03-R2,ATTACK,N1 Byzantine leader,COMPLETE
+B,B-04,RETREAT,N1 Byzantine leader,COMPLETE
+B,B-05-R2,ATTACK,N1 Byzantine leader,COMPLETE
+C,C-01-R2,ATTACK,N4 false relay,COMPLETE
+C,C-02-R6,RETREAT,N4 false relay,PASS
+C,C-03,ATTACK,N4 false relay,PASS
+C,C-04,RETREAT,N4 false relay,PASS
+C,C-05-R6,ATTACK,N4 false relay,PASS
+D,D-01,ATTACK,N4 silent Round 2,PASS
+D,D-02,RETREAT,N4 silent Round 2,PASS
+D,D-03,ATTACK,N4 silent Round 2,PASS
+D,D-04,RETREAT,N4 silent Round 2,PASS
+D,D-05,ATTACK,N4 silent Round 2,PASS
+E,E-01,ATTACK,N1 and N4 Byzantine,COMPLETE
+E,E-02,RETREAT,N1 and N4 Byzantine,COMPLETE
+E,E-03,ATTACK,N1 and N4 Byzantine,COMPLETE
+E,E-04,RETREAT,N1 and N4 Byzantine,COMPLETE
+E,E-05,ATTACK,N1 and N4 Byzantine,COMPLETE

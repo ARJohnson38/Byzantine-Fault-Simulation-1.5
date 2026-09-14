@@ -1,0 +1,14 @@
+{"timestamp": 1789331044.112339, "node": "N3", "run_id": "C-02", "event": "RECEIVE", "sender": "N1", "round": 1, "value": "RETREAT"}
+{"timestamp": 1789331045.99775, "node": "N3", "run_id": "C-02", "event": "RUN_START", "scenario": "C", "mode": "B", "command": "RETREAT"}
+{"timestamp": 1789331049.0864427, "node": "N3", "run_id": "C-02", "event": "RECEIVE", "sender": "N2", "round": 2, "value": "RETREAT"}
+{"timestamp": 1789331051.1269615, "node": "N3", "run_id": "C-02", "event": "SEND", "destination": "N2", "round": 2, "value": "RETREAT", "success": true}
+{"timestamp": 1789331051.14159, "node": "N3", "run_id": "C-02", "event": "RECEIVE", "sender": "N4", "round": 2, "value": "RETREAT"}
+{"timestamp": 1789331051.1491747, "node": "N3", "run_id": "C-02", "event": "SEND", "destination": "N4", "round": 2, "value": "RETREAT", "success": true}
+{"timestamp": 1789331056.000405, "node": "N3", "run_id": "C-02", "event": "DECISION", "decision": "RETREAT", "direct": {"N1": "RETREAT"}, "relays": {"N2": "RETREAT", "N4": "RETREAT"}, "mode": "B"}
+{"timestamp": 1789331066.5478575, "node": "N3", "run_id": "C-02", "event": "IGNORE", "reason": "late_after_decision", "payload": {"run_id": "C-02", "sender": "N1", "round": 1, "value": "RETREAT"}}
+{"timestamp": 1789331066.5554593, "node": "N3", "run_id": "C-02", "event": "IGNORE", "reason": "late_after_decision", "payload": {"run_id": "C-02", "sender": "N2", "round": 2, "value": "RETREAT"}}
+{"timestamp": 1789331066.6287084, "node": "N3", "run_id": "C-02", "event": "RUN_START", "scenario": "C", "mode": "B", "command": "RETREAT"}
+{"timestamp": 1789331066.6571927, "node": "N3", "run_id": "C-02", "event": "SEND", "destination": "N2", "round": 2, "value": "RETREAT", "success": true}
+{"timestamp": 1789331066.6733005, "node": "N3", "run_id": "C-02", "event": "SEND", "destination": "N4", "round": 2, "value": "RETREAT", "success": true}
+{"timestamp": 1789331066.6777823, "node": "N3", "run_id": "C-02", "event": "DECISION", "decision": "RETREAT", "direct": {}, "relays": {}, "mode": "B"}
+{"timestamp": 1789331067.4311435, "node": "N3", "run_id": "C-02", "event": "IGNORE", "reason": "late_after_decision", "payload": {"run_id": "C-02", "sender": "N4", "round": 2, "value": "RETREAT"}}

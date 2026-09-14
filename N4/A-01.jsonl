@@ -1,0 +1,21 @@
+{"timestamp_utc":"2026-09-13T16:28:55.512168+00:00","node_id":"N4","run_id":"A-01","scenario":"A","round":0,"event":"STARTUP","message_id":null,"sender":null,"recipient":null,"value":null,"details":"run accepted","mode":"B"}
+{"timestamp_utc":"2026-09-13T16:28:55.524057+00:00","node_id":"N4","run_id":"A-01","scenario":"A","round":0,"event":"ROUND_START","message_id":null,"sender":null,"recipient":null,"value":null,"details":"run started","mode":"B"}
+{"timestamp_utc":"2026-09-13T16:28:55.525134+00:00","node_id":"N4","run_id":"A-01","scenario":"A","round":1,"event":"ROUND_START","message_id":null,"sender":null,"recipient":null,"value":null,"details":"mode B round 1 opened"}
+{"timestamp_utc":"2026-09-13T16:29:00.527229+00:00","node_id":"N4","run_id":"A-01","scenario":"A","round":1,"event":"ROUND_END","message_id":null,"sender":null,"recipient":null,"value":null,"details":"round 1 deadline reached"}
+{"timestamp_utc":"2026-09-13T16:29:00.527765+00:00","node_id":"N4","run_id":"A-01","scenario":"A","round":2,"event":"ROUND_START","message_id":null,"sender":null,"recipient":null,"value":null,"details":"mode B round 2 opened"}
+{"timestamp_utc":"2026-09-13T16:29:00.671590+00:00","node_id":"N4","run_id":"A-01","scenario":"A","round":2,"event":"SEND","message_id":"A-01-R2-N4-N2-f2223e85","sender":"N4","recipient":"N2","value":"RETREAT","kind":"RELAY"}
+{"timestamp_utc":"2026-09-13T16:29:00.678923+00:00","node_id":"N4","run_id":"A-01","scenario":"A","round":2,"event":"SEND","message_id":"A-01-R2-N4-N3-681fcc7c","sender":"N4","recipient":"N3","value":"RETREAT","kind":"RELAY"}
+{"timestamp_utc":"2026-09-13T16:29:05.679455+00:00","node_id":"N4","run_id":"A-01","scenario":"A","round":2,"event":"ROUND_END","message_id":null,"sender":null,"recipient":null,"value":null,"details":"round 2 deadline reached"}
+{"timestamp_utc":"2026-09-13T16:29:05.680096+00:00","node_id":"N4","run_id":"A-01","scenario":"A","round":2,"event":"DECIDE","message_id":null,"sender":null,"recipient":null,"value":"RETREAT","votes":["RETREAT","RETREAT","RETREAT"],"decision":"RETREAT","termination":true}
+{"timestamp": 1789324514.0005841, "node": "N4", "run_id": "A-01", "event": "RUN_START", "scenario": "A", "mode": "B", "command": "ATTACK"}
+{"timestamp": 1789324519.0883853, "node": "N4", "run_id": "A-01", "event": "SEND", "destination": "N2", "round": 2, "value": "RETREAT", "success": true}
+{"timestamp": 1789324519.1128056, "node": "N4", "run_id": "A-01", "event": "RECEIVE", "sender": "N3", "round": 2, "value": "RETREAT"}
+{"timestamp": 1789324519.1263976, "node": "N4", "run_id": "A-01", "event": "SEND", "destination": "N3", "round": 2, "value": "RETREAT", "success": true}
+{"timestamp": 1789324523.9984052, "node": "N4", "run_id": "A-01", "event": "DECISION", "decision": "RETREAT", "direct": {}, "relays": {"N3": "RETREAT"}, "mode": "B"}
+{"timestamp": 1789326143.0533757, "node": "N4", "run_id": "A-01", "event": "RECEIVE", "sender": "N1", "round": 1, "value": "ATTACK"}
+{"timestamp": 1789326144.9958405, "node": "N4", "run_id": "A-01", "event": "RUN_START", "scenario": "A", "mode": "B", "command": "ATTACK"}
+{"timestamp": 1789326148.0238242, "node": "N4", "run_id": "A-01", "event": "RECEIVE", "sender": "N2", "round": 2, "value": "ATTACK"}
+{"timestamp": 1789326150.0736687, "node": "N4", "run_id": "A-01", "event": "SEND", "destination": "N2", "round": 2, "value": "ATTACK", "success": true}
+{"timestamp": 1789326150.0892045, "node": "N4", "run_id": "A-01", "event": "RECEIVE", "sender": "N3", "round": 2, "value": "ATTACK"}
+{"timestamp": 1789326150.0993078, "node": "N4", "run_id": "A-01", "event": "SEND", "destination": "N3", "round": 2, "value": "ATTACK", "success": true}
+{"timestamp": 1789326155.0002909, "node": "N4", "run_id": "A-01", "event": "DECISION", "decision": "ATTACK", "direct": {"N1": "ATTACK"}, "relays": {"N2": "ATTACK", "N3": "ATTACK"}, "mode": "B"}

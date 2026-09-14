@@ -1,0 +1,6 @@
+{"timestamp": 1789332126.152416, "node": "N3", "run_id": "C-02-R4", "event": "RECEIVE", "sender": "N1", "round": 1, "value": "RETREAT"}
+{"timestamp": 1789332127.9952722, "node": "N3", "run_id": "C-02-R4", "event": "RUN_START", "scenario": "C", "mode": "B", "command": "RETREAT"}
+{"timestamp": 1789332153.1450946, "node": "N3", "run_id": "C-02-R4", "event": "RECEIVE", "sender": "N1", "round": 1, "value": "RETREAT"}
+{"timestamp": 1789332153.2388191, "node": "N3", "run_id": "C-02-R4", "event": "RUN_START", "scenario": "C", "mode": "B", "command": "RETREAT"}
+{"timestamp": 1789332279.960479, "node": "N3", "run_id": "C-02-R4", "event": "RECEIVE", "sender": "N1", "round": 1, "value": "RETREAT"}
+{"timestamp": 1789332280.0441177, "node": "N3", "run_id": "C-02-R4", "event": "RUN_START", "scenario": "C", "mode": "B", "command": "RETREAT"}
