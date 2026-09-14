@@ -1,0 +1,7 @@
+{"timestamp": 1789325600.0384574, "node": "N4", "run_id": "B-BASELINE-01", "event": "RECEIVE", "sender": "N1", "round": 1, "value": "ATTACK"}
+{"timestamp": 1789325601.998394, "node": "N4", "run_id": "B-BASELINE-01", "event": "RUN_START", "scenario": "B", "mode": "A", "command": "ATTACK"}
+{"timestamp": 1789325605.008909, "node": "N4", "run_id": "B-BASELINE-01", "event": "RECEIVE", "sender": "N2", "round": 2, "value": "ATTACK"}
+{"timestamp": 1789325607.0382142, "node": "N4", "run_id": "B-BASELINE-01", "event": "SEND", "destination": "N2", "round": 2, "value": "ATTACK", "success": true}
+{"timestamp": 1789325607.0530422, "node": "N4", "run_id": "B-BASELINE-01", "event": "RECEIVE", "sender": "N3", "round": 2, "value": "ATTACK"}
+{"timestamp": 1789325607.0661056, "node": "N4", "run_id": "B-BASELINE-01", "event": "SEND", "destination": "N3", "round": 2, "value": "ATTACK", "success": true}
+{"timestamp": 1789325612.0003312, "node": "N4", "run_id": "B-BASELINE-01", "event": "DECISION", "decision": "ATTACK", "direct": {"N1": "ATTACK"}, "relays": {"N2": "ATTACK", "N3": "ATTACK"}, "mode": "A"}
